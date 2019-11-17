@@ -1,0 +1,37 @@
+{
+  "name": "matrix-bot-sdk-bot-template",
+  "version": "0.1.0",
+  "author": "TravisR",
+  "license": "Apache-2.0",
+  "description": "A template repository for bots made with the matrix-bot-sdk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turt2live/matrix-bot-sdk-bot-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/turt2live/matrix-bot-sdk-bot-template/issues"
+  },
+  "homepage": "https://github.com/turt2live/matrix-bot-sdk-bot-template#readme",
+  "keywords": [
+    "matrix",
+    "bot",
+    "template"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint --project ./tsconfig.json -t stylish",
+    "start:dev": "npm run build && node lib/index.js"
+  },
+  "dependencies": {
+    "config": "^3.2.4",
+    "escape-html": "^1.0.3",
+    "js-yaml": "^3.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.17.5",
+    "matrix-bot-sdk": "^0.4.0-beta.19",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2"
+  }
+}

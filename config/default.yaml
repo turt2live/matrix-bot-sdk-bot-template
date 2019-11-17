@@ -1,0 +1,13 @@
+# Where the homeserver's Client-Server API is located. Typically this
+# is where clients would be connecting to in order to send messages.
+homeserverUrl: "https://matrix.org"
+
+# An access token for the bot to use. Learn how to get an access token
+# at https://t2bot.io/docs/access_tokens
+accessToken: "YOUR_TOKEN_HERE"
+
+# Whether or not to autojoin rooms when invited.
+autoJoin: true
+
+# Location on disk for where to store various bot information.
+dataPath: "storage"
