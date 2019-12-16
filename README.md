@@ -4,7 +4,7 @@ A template for creating bots with [matrix-bot-sdk](https://www.npmjs.com/package
 
 ## Projects using this template
 
-*None yet!*
+- [matrix-zammad](https://github.com/Half-Shot/matrix-zammad) by [Half-Shot](https://github.com/Half-Shot)
 
 Want your project listed? [Edit this doc](https://github.com/turt2live/matrix-bot-sdk-bot-template/edit/master/README.md).
 
