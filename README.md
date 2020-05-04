@@ -11,7 +11,7 @@ Want your project listed? [Edit this doc](https://github.com/turt2live/matrix-bo
 ## Running / Building
 
 After clicking the 'use this template' button and cloning the repo, you'll need to install the dependencies
-and open an editor to get started. This assumes you have at least **NodeJS 10 or higher**.
+and open an editor to get started. This assumes you have at least **NodeJS 12 or higher**.
 
 1. Replace this README with something useful.
 2. Update your project's details in `package.json`.
