@@ -23,7 +23,6 @@ LogService.info("index", "Bot starting...");
 
 // This is the startup closure where we give ourselves an async context
 (async function () {
-    
     // Prepare the storage system for the bot
     const storage = new SimpleFsStorageProvider(path.join(config.dataPath, "bot.json"));
     

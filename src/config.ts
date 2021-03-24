@@ -6,7 +6,7 @@ interface IConfig {
         use: boolean;
         username: string;
         password: string;
-    }
+    };
     accessToken: string;
     autoJoin: boolean;
     dataPath: string;
