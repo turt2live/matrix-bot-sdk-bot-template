@@ -25,6 +25,18 @@ To check the lint: `npm run lint`
 
 *Think this should have a Docker image built-in? Add a 👍 to [this issue](https://github.com/turt2live/matrix-bot-sdk-bot-template/issues/1).*
 
+### Docker
+
+Build: `docker build -t matrix-bot-sdk-template:latest --name my-matrix-bot .`
+Run: `docker run matrix-bot-sdk-template:latest`
+Stop: `docker stop my-matrix-bot`
+
+**Options**
+
+Use the flag --target to specify if you want development or production.
+Use the flag --rm to remove the container after a it is stopped.
+
+
 ### Configuration
 
 This template uses a package called `config` to manage configuration. The default configuration is offered

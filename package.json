@@ -20,6 +20,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
+    "build:prod": "tsc --project tsconfig.prod.json",
     "lint": "tslint --project ./tsconfig.json -t stylish",
     "start:dev": "npm run build && node lib/index.js"
   },
