@@ -23,7 +23,10 @@ To run it: `npm run start:dev`
 
 To check the lint: `npm run lint`
 
-*Think this should have a Docker image built-in? Add a 👍 to [this issue](https://github.com/turt2live/matrix-bot-sdk-bot-template/issues/1).*
+To build the Docker image: `docker build -t your-bot:latest .`
+
+To run the Docker image (after building): `docker run --rm -it -v $(pwd)/config:/bot/config your-bot:latest`
+*Note that this will require a `config/production.yaml` file to exist as the Docker container runs in production mode.*
 
 ### Configuration
 
