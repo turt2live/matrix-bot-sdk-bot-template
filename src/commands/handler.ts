@@ -75,9 +75,7 @@ export default class CommandHandler {
 
             // Tell the user there was a problem
             const message = "There was an error processing your command";
-            const reply = RichReply.createFor(roomId, ev, message, message); // We don't need to escape the HTML because we know it is safe
-            reply["msgtype"] = "m.notice";
-            return this.client.sendMessage(roomId, reply);
+            return this.client.replyNotice(roomId, ev, message);
         }
     }
 }

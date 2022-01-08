@@ -2,11 +2,6 @@
 # is where clients would be connecting to in order to send messages.
 homeserverUrl: "https://matrix.org"
 
-pantalaimon:
-    use: false
-    username: "YOUR_USERNAME_HERE"
-    password: "YOUR_PASSWORD_HERE"
-
 # An access token for the bot to use. Learn how to get an access token
 # at https://t2bot.io/docs/access_tokens
 accessToken: "YOUR_TOKEN_HERE"
@@ -16,3 +11,7 @@ autoJoin: true
 
 # Location on disk for where to store various bot information.
 dataPath: "storage"
+
+# Set to false to disable encryption support. Encrypted data will be
+# stored under dataPath.
+encryption: true
